@@ -1,0 +1,117 @@
+body {
+  background-color:#FAF0E6;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  border: solid 10px;
+}
+
+.myDiv {
+  background-color: lightblue;
+  top: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.mineDiv {
+  width: 50%;
+  border: 4px outset red;
+  text-align: center;
+}
+
+.ownDiv {
+  text-align: center;
+  top: 0px;
+  height: 273px;
+  width: 49%;
+  position: absolute;
+  left: 50.5%;
+  bottom: 5%;
+  border: 4px outset red;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  font-size: 30px;
+  padding: 20px;
+  color: #293133;
+  text-decoration: none;
+}
+
+.comment {
+  background-color: inherit;
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: block;
+  background-color: #FC6666;
+}
+
+.registration {
+  background-color: inherit;
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 30px;
+  top: 80px;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 75px;
+  color: black;
+}
+
+p {
+  font-size: 50px;
+  color: black;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+.div1 {
+  float: left;
+  padding: 10px;
+  border: 3px solid #73AD21;
+}
+
+.div2 {
+  padding: 10px;
+  border: 3px solid red;
+}
+
+.div3 {
+  float: left;
+  padding: 10px;
+  border: 3px solid #73AD21;
+}
+
+.div4 {
+  padding: 10px;
+  border: 3px solid red;
+  clear: left;
+}
